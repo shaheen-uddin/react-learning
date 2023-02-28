@@ -4,7 +4,7 @@ import Image from "./Image";
 import Title from "./Title";
 
 const Book = (props) => {
-    const{img, title, author } = props.book;
+    const{img, title, author } = props;
     return (
         <section >
             <article className="max-w-2xl mx-auto border border-slate-100 shadow-xl my-2 space-y-2 py-4 rounded-md flex flex-col justify-center">

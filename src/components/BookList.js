@@ -23,8 +23,8 @@ const BookList = () => {
                  const {img, title, author, id } = book;
                   return (
                         <Book 
-                        book = {book}
-                        key = {id}
+                        {...book}
+                        key = {book.id}
                         />
                       );  
                     })
