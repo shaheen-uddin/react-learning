@@ -15,7 +15,7 @@ const Book = (props) => {
           
             
             </article>
-            {console.log({img,title, author})}
+           
         </section>
     );
 }
